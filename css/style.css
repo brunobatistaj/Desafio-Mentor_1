@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    background-color: rgb(20, 21, 25);
+    font-family: 'overpass';
+    font-size: 15px;
+    color: white;
+}
+
+/*first display*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    max-width: 400px;
+    height: 380px;
+    background-color: rgb(27, 34, 44);
+    border-radius: 30px;
+    margin: 10vw auto;
+    padding: 30px;
+}
+
+.icon_star{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(38, 47, 56);
+    
+}
+.icon_star svg{
+    position: relative;
+    top: 9px;
+    left: 12px;
+
+}
+.title{
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+title h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+p{
+    color: hsl(216, 12%, 54%);
+    line-height: 25px;
+    font-weight: 400;
+    text-align: justify;
+    word-wrap: break-word;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+li{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(38, 47, 56); 
+    cursor: pointer;   
+}
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 17px;
+    left: 19px
+}
+li:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.active{
+    background-color: hsl(25, 97%, 53%);
+}
+button{
+    box-shadow: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    height: 40px;
+}
+button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+
+
+
+/*second display*/
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    height: 380px;
+    background-color: rgb(27, 34, 44);
+    border-radius: 30px;
+    margin: 10vw auto;
+    padding: 30px;
+}
+.second svg{
+    margin-bottom: 30px;
+}
+.second .resp{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(38, 47, 56);
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.second .resp p{
+    color: hsl(25, 97%, 53%);
+}
+.second h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.second p{
+    font-weight: 400;
+    text-align: center;
+}
+
